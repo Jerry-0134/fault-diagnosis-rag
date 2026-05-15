@@ -10,7 +10,7 @@
 
 
 
-\[点击观看演示视频](https://你的视频链接)   <!-- 后续录好视频后替换这个链接 -->
+\[点击观看演示视频]([https://你的视频链接](https://www.bilibili.com/video/BV1ZB5v6PELd/?spm_id_from=333.1387.homepage.video_card.click&vd_source=e81b0e7ddf1c19806bcb2a4163c4cd12))   <!-- 后续录好视频后替换这个链接 -->
 
 
 
