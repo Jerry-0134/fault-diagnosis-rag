@@ -86,7 +86,7 @@
 **结论**：混合检索在保持精确匹配能力的同时，新增语义理解能力，准确率实现翻倍提升。
 
 ## 📁 项目结构
-
+``` 
 rag-fault-system/
 ├── app.py # 主界面（集成混合检索、缓存、监控、多模态）
 ├── config.py # 配置文件
@@ -102,7 +102,7 @@ rag-fault-system/
 ├── requirements.txt # Python依赖清单
 ├── .env # 环境变量（API Key，不提交）
 └── .gitignore # Git忽略规则
-
+``` 
 
 ## 📝 改进方向
 
