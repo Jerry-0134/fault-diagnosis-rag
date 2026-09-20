@@ -22,7 +22,7 @@ class MemoryCache:
             entry = self.cache[key]
             if datetime.now() < entry['expire_at']:
                 self.hits += 1
-                print(f"✅ 缓存命中: {query[:30]}...")
+                print(f"缓存命中: {query[:30]}...")
                 return entry['data']
             else:
                 del self.cache[key]
@@ -37,7 +37,7 @@ class MemoryCache:
             'expire_at': datetime.now() + timedelta(seconds=self.ttl),
             'created_at': datetime.now()
         }
-        print(f"💾 缓存写入: {query[:30]}...")
+        print(f"缓存写入: {query[:30]}...")
     
     def stats(self):
         """缓存统计"""
@@ -52,3 +52,4 @@ class MemoryCache:
 
 # 全局缓存实例
 cache = MemoryCache(ttl_seconds=3600)  # 1小时过期
+
