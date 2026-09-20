@@ -1,7 +1,11 @@
 .env
 .env.txt
+.venv/
+venv*/
 __pycache__/
 *.pyc
 .DS_Store
 *.docx
 *.doc
+case_embeddings.pkl
+*_backup.py
