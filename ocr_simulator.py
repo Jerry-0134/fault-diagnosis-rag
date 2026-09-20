@@ -35,7 +35,7 @@ class SimpleOCREngine:
         else:
             ocr_text = "未检测到明显文字信息。请确认图片是否包含故障代码或参数。"
         
-        print(f"📖 模拟OCR: {ocr_text[:100]}...")
+        print(f"模拟OCR: {ocr_text[:100]}...")
         return ocr_text
     
     def extract_parameters(self, text):
