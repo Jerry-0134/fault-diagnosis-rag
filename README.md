@@ -6,6 +6,9 @@
 
 \- Python 3.11+
 
+\- python prepare_vectors.py
+  streamlit run app.py
+
 \- DeepSeek API Key（\[获取地址](https://platform.deepseek.com/)）
 
 ## 📺 英文演示视频
