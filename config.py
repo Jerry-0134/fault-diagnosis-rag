@@ -1,5 +1,8 @@
-# 配置文件路径
-DATA_FILE = "data.txt"
+import os
+from dotenv import load_dotenv
 
-# 检索配置
-TOP_K = 2
+load_dotenv()
+
+DATA_FILE = "data.txt"
+TOP_K = 5
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
