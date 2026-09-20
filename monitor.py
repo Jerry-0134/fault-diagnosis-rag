@@ -15,7 +15,7 @@ def timer(func):
             'time': elapsed,
             'timestamp': datetime.now().isoformat()
         })
-        print(f"⏱️ {func.__name__} 耗时: {elapsed*1000:.2f}ms")
+        print(f"{func.__name__} 耗时: {elapsed*1000:.2f}ms")
         return result
     return wrapper
 
